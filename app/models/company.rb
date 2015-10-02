@@ -47,15 +47,5 @@ class Company
   # There are basic specs that validate the integrity of constant `LIST`
   # and so if specs fail, please fix the errors before issuing a Pull Request.
 
-  LIST =
-    [
-      {
-        name:       'Jolly Good Code',
-        website:    'http://www.jollygoodcode.com',
-        logo_url:   'https://cloud.githubusercontent.com/assets/1000669/9362336/72f9c406-46d2-11e5-94de-5060e83fcf83.jpg',
-        address:    '128 Prinsep Street, Singapore 188655',
-        hiring_url: nil,
-        email:      'hello@jollygoodcode.com'
-      }
-    ]
+  LIST = I18n.t('companies')
 end
